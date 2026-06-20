@@ -49,7 +49,7 @@ try:
 except ImportError:
     sys.exit(
         "ERROR: The 'anthropic' package is not installed.\n"
-        "       Run:  pip install anthropic"
+        "       Run:  uv pip install anthropic"
     )
 
 
